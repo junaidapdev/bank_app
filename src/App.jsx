@@ -6,8 +6,8 @@ import {
   Hero,
   Stats,
   Business,
-  Billing
-  // Cardeal,
+  Billing,
+  Cardeal
   // Testimonials,
   // Clients,
   // CTA,
@@ -30,7 +30,8 @@ const App = () => {
           <Stats/>
           <Business/>
           <Billing/> 
-          {/* <Stats/>  <Cardeal/> <Testimonials/> <Clients/> <CTA/> <Footer/> */}
+          <Cardeal/>
+          {/* <Stats/>  <Testimonials/> <Clients/> <CTA/> <Footer/> */}
         </div>
       </div>
     </div>
