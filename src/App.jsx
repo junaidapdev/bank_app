@@ -4,8 +4,8 @@ import styles from "./style";
 import {
   Navbar,
   Hero,
-  Stats
-  // Business,
+  Stats,
+  Business
   // Billing,
   // Cardeal,
   // Testimonials,
@@ -28,7 +28,8 @@ const App = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats/>
-          {/* <Stats/> <Business/> <Billing/> <Cardeal/> <Testimonials/> <Clients/> <CTA/> <Footer/> */}
+          <Business/>
+          {/* <Stats/>  <Billing/> <Cardeal/> <Testimonials/> <Clients/> <CTA/> <Footer/> */}
         </div>
       </div>
     </div>
