@@ -5,8 +5,8 @@ import {
   Navbar,
   Hero,
   Stats,
-  Business
-  // Billing,
+  Business,
+  Billing
   // Cardeal,
   // Testimonials,
   // Clients,
@@ -29,7 +29,8 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <Stats/>
           <Business/>
-          {/* <Stats/>  <Billing/> <Cardeal/> <Testimonials/> <Clients/> <CTA/> <Footer/> */}
+          <Billing/> 
+          {/* <Stats/>  <Cardeal/> <Testimonials/> <Clients/> <CTA/> <Footer/> */}
         </div>
       </div>
     </div>
