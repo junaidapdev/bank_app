@@ -9,7 +9,7 @@ import {
   Billing,
   Cardeal,
   Testimonials,
-  // Clients,
+  Clients,
   // CTA,
   // Footer,
 } from "./components";
@@ -32,7 +32,8 @@ const App = () => {
           <Billing/> 
           <Cardeal/>
           <Testimonials/>
-          {/* <Stats/>   <Clients/> <CTA/> <Footer/> */}
+          <Clients/>
+          {/* <Stats/>   <CTA/> <Footer/> */}
         </div>
       </div>
     </div>
